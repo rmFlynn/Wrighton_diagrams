@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T18:14:02.060Z" agent="5.0 (X11)" version="17.4.6" etag="2qshSz5EoTCIZlz63sCf" type="github"><diagram id="9N8NZy3taT8siIMRnL9C">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-22T21:39:33.235Z" agent="5.0 (X11)" etag="RZWGH1WNtsSXZdaEPI7M" version="17.4.6" type="github">
+  <diagram id="9N8NZy3taT8siIMRnL9C" name="Page-1">
+    <mxGraphModel dx="2062" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yjtFa_Ca9bOJQknrNQax-1" value="bam file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yjtFa_Ca9bOJQknrNQax-2" value="&lt;div&gt;GFF File&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="55" width="89" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
