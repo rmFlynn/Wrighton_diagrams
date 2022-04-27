@@ -1,14 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T21:39:33.235Z" agent="5.0 (X11)" etag="RZWGH1WNtsSXZdaEPI7M" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T17:35:19.171Z" agent="5.0 (X11)" etag="a0aecBWRFMpaleI4t8Y3" version="17.4.6" type="github">
   <diagram id="9N8NZy3taT8siIMRnL9C" name="Page-1">
-    <mxGraphModel dx="2062" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yjtFa_Ca9bOJQknrNQax-1" value="bam file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="50" width="80" height="30" as="geometry" />
+        <mxCell id="cbGjJiORp9Pvt2h9e500-3" value="Names are hashed" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="179" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yjtFa_Ca9bOJQknrNQax-2" value="&lt;div&gt;GFF File&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="55" width="89" height="25" as="geometry" />
+        <mxCell id="cbGjJiORp9Pvt2h9e500-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cbGjJiORp9Pvt2h9e500-4" target="cbGjJiORp9Pvt2h9e500-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-4" value="&lt;div&gt;Hash table&lt;/div&gt;&lt;div&gt;Maps SAM to GFF&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="129" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-6" value="BAM File" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="89" y="183" width="78" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-8" value="GFF File" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="89" y="142" width="78" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cbGjJiORp9Pvt2h9e500-11" target="cbGjJiORp9Pvt2h9e500-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="280" />
+              <mxPoint x="110" y="280" />
+              <mxPoint x="110" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-11" value="Sort by Start Position" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="154.5" width="99" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cbGjJiORp9Pvt2h9e500-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-12" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="609" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=38.25;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cbGjJiORp9Pvt2h9e500-6" target="cbGjJiORp9Pvt2h9e500-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cbGjJiORp9Pvt2h9e500-8" target="cbGjJiORp9Pvt2h9e500-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="177" y="236.25" as="sourcePoint" />
+            <mxPoint x="231.1111111111111" y="217.8888888888889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cbGjJiORp9Pvt2h9e500-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-24" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cbGjJiORp9Pvt2h9e500-31" value="FOR EACH SEQUENCE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
