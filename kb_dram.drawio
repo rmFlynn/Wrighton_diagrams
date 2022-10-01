@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-01T00:25:32.729Z" agent="5.0 (X11)" etag="0m3n4zhZh9Ew7HMsiL5T" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-01T00:25:47.980Z" agent="5.0 (X11)" etag="-C74BG5ZJ4mLZeAl2kJU" version="20.3.6" type="github">
   <diagram id="j9nnkGqWFkPmIw64Zv5Q" name="Page-1">
     <mxGraphModel dx="931" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -204,7 +204,7 @@
           <mxGeometry x="39" y="444" width="104" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yJfsZLbiuFsfr0gUb3lU-97" value="&lt;h1 style=&quot;font-size: 13px;&quot;&gt;Merge Annotations Once more&lt;br&gt;&lt;/h1&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;We now have separate RAST and DRAM annotations, but we can combine them to get the full set. This genome objects with all 3 annotation sets will be used for the rest of the steps.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="369" y="505" width="360" height="91" as="geometry" />
+          <mxGeometry x="369" y="465" width="360" height="91" as="geometry" />
         </mxCell>
         <mxCell id="yJfsZLbiuFsfr0gUb3lU-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=12;exitX=-0.016;exitY=0.797;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="yJfsZLbiuFsfr0gUb3lU-101" target="yJfsZLbiuFsfr0gUb3lU-105" edge="1">
           <mxGeometry relative="1" as="geometry">
