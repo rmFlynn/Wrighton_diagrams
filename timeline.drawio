@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T18:38:27.754Z" agent="5.0 (X11)" etag="2NSxkBze5-7sQ-CXmTbN" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T18:39:04.300Z" agent="5.0 (X11)" etag="gxQk-Isnu055fiJmzf0X" version="20.6.0" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="1415" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           <mxGeometry x="13.5" y="381.5" width="120" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="7W-krHmOCczphmB0Bt9z-234" value="Setup fixed to be easy and fast" style="whiteSpace=wrap;fillColor=#2f5b7c;strokeColor=none;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=0;html=1;fontSize=12;spacing=6;verticalAlign=middle;" parent="193" vertex="1">
-          <mxGeometry x="39.5" y="533.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="42.5" y="533.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7W-krHmOCczphmB0Bt9z-246" value="Finish profiling DRAM2 annotations and do a full wright up" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="193" vertex="1">
           <mxGeometry x="154" y="241" width="120" height="60" as="geometry" />
@@ -250,7 +250,12 @@
           <mxGeometry x="572" y="230" width="118" height="62" as="geometry" />
         </mxCell>
         <mxCell id="7W-krHmOCczphmB0Bt9z-260" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8oFMMmD0dK8GUsLk8yxT-225" target="7W-krHmOCczphmB0Bt9z-234" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="659" />
+              <mxPoint x="540" y="654" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
