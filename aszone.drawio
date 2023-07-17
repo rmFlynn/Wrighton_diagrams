@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T14:50:22.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" version="21.5.0" etag="J4vNkoUB3mecHoKsgKPY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T16:14:21.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="gYHZb_JKMD7961z61M6g" version="21.5.0" type="github">
   <diagram name="Page-1" id="3P027rNG9J7wojTki_V8">
-    <mxGraphModel>
+    <mxGraphModel dx="1757" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-1" value="&lt;div&gt;The user sends a post with the body conaing &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;userSuppliedASZones&quot;: [&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;AS_CAISO&quot;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;AS_CAISO_EXP&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-2" value="all_json -&amp;gt;get_nrg_dates_and_ids_dict (using paralized for loop)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="280" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-3" value="extract the &lt;br&gt;userSuppliedASZones" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-4" value="get_nrg_dates_and_ids" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-5" value="get_nrg_stream_ids" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="590" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-6" value="&lt;div&gt;get column_stream_ids product is now called column names&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="710" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-7" value="Check if the location procedure matches the nrg config location procedure. " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="790" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W0JoxsYcH6lZvFJTKf_k-8" target="W0JoxsYcH6lZvFJTKf_k-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W0JoxsYcH6lZvFJTKf_k-8" target="W0JoxsYcH6lZvFJTKf_k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-8" value="&lt;div&gt;pass to get_as_zone&lt;/div&gt;script combines the custom and base data and extracts the iso data. if that was not already don with " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="870" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-9" value="Pass to&amp;nbsp; update metadata and never access it again. note that if the use suplise the as zone it just returns and dose not update custom so there is no wahy to update the custom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="980" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W0JoxsYcH6lZvFJTKf_k-10" target="W0JoxsYcH6lZvFJTKf_k-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0JoxsYcH6lZvFJTKf_k-10" value="Traslate string name usting transform stream name. this looks like an alternive form of stream name translation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="930" width="200" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
