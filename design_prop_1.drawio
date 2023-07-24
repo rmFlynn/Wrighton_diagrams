@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T20:54:46.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="SzqxjLcMxSebkfDp1Hfr" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T21:00:12.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="eyhNGHlXj1PqFg6Avp8y" version="21.6.2" type="github" pages="2">
   <diagram name="Page-1" id="mSkrQCTb6mMFP0I92MH9">
-    <mxGraphModel dx="1464" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2510" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
           <mxGeometry x="515" y="190" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-3" value="&lt;b&gt;Parquet files containing Energy data all ISOs in 5 year chunks&lt;/b&gt;&lt;br&gt;\\ds01\Battery\NRG2020\Upload_Forecasts_to_Traverse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="768" width="200" height="100" as="geometry" />
+          <mxGeometry x="35" y="772" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-5" target="k18f-LrCEGzRWncHFNrR-6">
           <mxGeometry relative="1" as="geometry">
@@ -73,28 +73,30 @@
         <mxCell id="k18f-LrCEGzRWncHFNrR-16" value="&lt;div&gt;&lt;b&gt;Run :&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;parse_forecast_prices.py&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Split data by month and product. Keeping duplicate ancillary product data.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=west;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-18" target="k18f-LrCEGzRWncHFNrR-39">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="633" y="758" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-18" target="k18f-LrCEGzRWncHFNrR-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-41" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-40">
-          <mxGeometry x="-0.0044" y="1" relative="1" as="geometry">
+        <mxCell id="k18f-LrCEGzRWncHFNrR-58" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-57">
+          <mxGeometry x="-0.6322" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.285;entryY=-0.096;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="338.4749999999999" y="864.3199999999999" as="targetPoint" />
+        <mxCell id="k18f-LrCEGzRWncHFNrR-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-18" target="k18f-LrCEGzRWncHFNrR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-61" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-60">
+          <mxGeometry x="0.0069" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-18" value="&lt;div&gt;If ancillary&lt;/div&gt;&lt;div&gt;&amp;nbsp;product&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="778" width="100" height="80" as="geometry" />
+          <mxGeometry x="317.5" y="778" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-27" value="&lt;div&gt;&lt;b&gt;Request :&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Get forecasts&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;The user provides:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;forecast version&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Node&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;product&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;start date&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;end date&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;frequency&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;time interval(beginning or end)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Output time zone&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="35" y="390" width="205" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-28" target="k18f-LrCEGzRWncHFNrR-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-28" value="&lt;div&gt;Format node, product, start and end data to look up a set of months in blob storage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="298" y="408" width="135" height="80" as="geometry" />
@@ -123,32 +125,67 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-33" target="k18f-LrCEGzRWncHFNrR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-33" value="get data from blob storage one month at a time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="298" y="595" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-34" target="k18f-LrCEGzRWncHFNrR-18">
+        <mxCell id="k18f-LrCEGzRWncHFNrR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-34" target="k18f-LrCEGzRWncHFNrR-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-34" value="get data from blob storage one month at a time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="690" width="135" height="80" as="geometry" />
+          <mxGeometry x="300" y="691" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-37" value="&lt;div&gt;If no such data&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="308" y="498" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-38" value="Return data set filled with None" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="498" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-39">
+        <mxCell id="k18f-LrCEGzRWncHFNrR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="434.9999999999998" y="912" as="targetPoint" />
+            <mxPoint x="365.5" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-36" value="Concatenate data, make final formatting changes " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="872" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-37" target="k18f-LrCEGzRWncHFNrR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-63" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-62">
+          <mxGeometry x="-0.1322" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-37" target="k18f-LrCEGzRWncHFNrR-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.9999999999998" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-65" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-64">
+          <mxGeometry x="-0.1445" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-37" value="&lt;div&gt;No such data&lt;/div&gt;&lt;div&gt;exists&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="498" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-39" target="k18f-LrCEGzRWncHFNrR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-39" value="Sum all values for each interval and &quot;TYPE&quot;(unkown), returning the sum." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="565" y="803" width="135" height="80" as="geometry" />
+          <mxGeometry x="435" y="778" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-46" value="Send result to user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="860" width="135" height="80" as="geometry" />
+        <mxCell id="k18f-LrCEGzRWncHFNrR-67" value="Return data set filled with None" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="517" width="105" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="k18f-LrCEGzRWncHFNrR-68" value="Send result to user" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="970" width="105" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OKomPFiii6wmlkeBRDaD" name="Page-2">
+    <mxGraphModel dx="1757" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
