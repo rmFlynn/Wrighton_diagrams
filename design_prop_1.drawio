@@ -1,16 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T21:43:51.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="5-rxTsD5UAVZfS7fhwJL" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-24T21:48:33.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="5KRX4zneapiNvDJAnhKG" version="21.6.2" type="github" pages="2">
   <diagram name="Page-1" id="mSkrQCTb6mMFP0I92MH9">
     <mxGraphModel dx="1528" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k18f-LrCEGzRWncHFNrR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-2" target="k18f-LrCEGzRWncHFNrR-16">
+        <mxCell id="eKIgT5VZvzi4z8RfS0Di-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-2" target="eKIgT5VZvzi4z8RfS0Di-1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-23" value="Data in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-19">
-          <mxGeometry x="-0.029" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Raw data split into year&lt;/b&gt;&lt;/font&gt;&lt;br&gt;\\ds01\Battery\NRG2020\Upload_Forecasts_to_Traverse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="515" y="190" width="200" height="90" as="geometry" />
@@ -61,13 +56,8 @@
         <mxCell id="k18f-LrCEGzRWncHFNrR-10" value="year1_month2.parquet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="696" y="552" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-16" target="k18f-LrCEGzRWncHFNrR-5">
+        <mxCell id="eKIgT5VZvzi4z8RfS0Di-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k18f-LrCEGzRWncHFNrR-16" target="eKIgT5VZvzi4z8RfS0Di-1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="k18f-LrCEGzRWncHFNrR-24" value="Data out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k18f-LrCEGzRWncHFNrR-20">
-          <mxGeometry x="-0.5313" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="k18f-LrCEGzRWncHFNrR-16" value="&lt;div&gt;&lt;b&gt;Run :&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;parse_forecast_prices.py&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;User supplying the path to an input file&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;fontStyle=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="200" height="110" as="geometry" />
@@ -195,6 +185,12 @@
         </mxCell>
         <mxCell id="3vcsNQ-Gj1Tb2YR9CaYm-4" value="&lt;font style=&quot;font-size: 49px;&quot;&gt;Original Flow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="262" y="38" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eKIgT5VZvzi4z8RfS0Di-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eKIgT5VZvzi4z8RfS0Di-1" target="k18f-LrCEGzRWncHFNrR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eKIgT5VZvzi4z8RfS0Di-1" value="&lt;div&gt;Split data by month and product, keeping duplicate data from ancillary services&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="135" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -340,7 +336,7 @@
         <mxCell id="i5Thiiae1taM7hZ5wgpb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i5Thiiae1taM7hZ5wgpb-1" target="OmqTf4yZccabmakL5SBu-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i5Thiiae1taM7hZ5wgpb-1" value="&lt;div&gt;Split data by year and product.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="i5Thiiae1taM7hZ5wgpb-1" value="&lt;div&gt;Combine data into 5-year intervals, split by product.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
           <mxGeometry x="275" y="250" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="i5Thiiae1taM7hZ5wgpb-13" value="&lt;b&gt;Q. &lt;/b&gt;Is there a better alternative then sum to calculate these prices." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
